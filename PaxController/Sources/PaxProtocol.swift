@@ -74,7 +74,7 @@ enum PaxHeatingState: UInt8, CustomStringConvertible {
 // MARK: - Dynamic Mode (PAX 3 heating profile)
 enum PaxDynamicMode: UInt8, CaseIterable, Identifiable {
     case standard   = 0x00
-    case boost      = 0x01
+    case boost      = 0x1
     case efficiency = 0x02
     case stealth    = 0x03
     case flavor     = 0x04
